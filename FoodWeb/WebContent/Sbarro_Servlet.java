@@ -18,8 +18,19 @@ public class Sbarro_Servlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html");
+		PrintWriter writer = response.getWriter();
+		writer.println("<html>");
+		writer.println("<head>");
+		writer.println("<title>FoodbUST</title>");
+		writer.println("</head>");
+		writer.println("<body>");
+		writer.println("<img src = 'images/HEADER.jpg' width = '100%'>");
+		writer.println("<img src = 'images/sbarro.jpg'>");
+		writer.println("<p>Sbarro, LLC is a chain of pizzeria that specializes in New York style pizza by the slice and other Italian-American cuisine.</p>");
+		writer.println("</body>");
+		writer.println("</html>");
+
 	}
 
 	/**

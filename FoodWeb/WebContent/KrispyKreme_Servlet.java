@@ -18,8 +18,19 @@ public class KrispyKreme_Servlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html");
+		PrintWriter writer = response.getWriter();
+		writer.println("<html>");
+		writer.println("<head>");
+		writer.println("<title>FoodbUST</title>");
+		writer.println("</head>");
+		writer.println("<body>");
+		writer.println("<img src = 'images/HEADER.jpg' width = '100%'>");
+		writer.println("<img src = 'images/kk.jpg'>");
+		writer.println("<p>Krispy Kreme Doughnuts, Inc. is an American global doughnut company, and coffeehouse chain based in Winston-Salem, North Carolina.</p>");
+		writer.println("</body>");
+		writer.println("</html>");
+
 	}
 
 	/**
