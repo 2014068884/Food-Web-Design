@@ -1,0 +1,11 @@
+h1 {
+	font-family: "Avenir Next Condensed Bold";
+	display: inline;
+	color: gold;
+}
+
+p {
+	text-align: center;
+	font-size: 14;
+	font-family: "Verdana";
+}
