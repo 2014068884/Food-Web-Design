@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;	
+	bgcolor: yellow
+}
+p.ex1 {
+    margin: 1cm 1cm 1cm 1cm;
+    text-align: justify;
+	font-size: 120%;
+	font-family: "verdana";
+}
+
+p.sam {
+	float: right;
+    margin: 0 0 10px 10px;
+}
+
+p.ex2 {
+	text-align: justify;
+}
+
+h1.title {
+	text-align: center;
+	text-font: Verdana;
+	font-size: 350%;
+}
